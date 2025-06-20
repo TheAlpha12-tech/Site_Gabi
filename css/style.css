@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px;
+}
+
+.cabecalho-logo{
+    height: 72px;
+    border-radius: 250px;
+    margin-right: auto;
+    
+}
+
+.cabecalho-menu{
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    font-family: "Tinos", serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: black;
+    margin-right: 45px;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid rgba(255, 242, 231, 1);
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 48px;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: rgb(0, 0, 0);
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgb(0, 0, 0);
+}
+.conteudo-principal-escrito-butao{
+    background-color: rgba(255, 242, 231, 1);
+    color: black;
+    width: 185px;
+    height: 67px;
+    top: 382px;
+    left: 369px;
+    border-radius: 20px;
+    border: none;
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.conteudo-principal-foto{
+    width: 450px;
+    height: auto;
+    border-radius: 250px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 60px;   
+}
+
+.conteudo-secundario-escrito-titulo{
+    border-top:0.4px solid rgba(255, 242, 231, 1);
+    padding-top: 48px;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+    gap: 16px;
+}
+
+.conteudo-secundario-escrito-paragrafo{
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgb(0, 0, 0);
+}
+
+.pe-conteudo-principal{
+    border-top:0.4px solid rgba(255, 242, 231, 1);
+    padding-top: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.pe-conteudo-principal-foto{
+    width: 100px;
+    height: auto;
+}
+
+/*sobre mim */
+
+.conteudo-sobremim{
+    margin-bottom: 20px;
+    border-top: 0.4px solid rgba(255, 242, 231, 1);
+    display: flex;
+    flex-direction: row;
+    margin-top: 48px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 48px;
+}
+
+.conteudo-sobremim-escrito{
+    width: 600px;
+    text-align: left;
+    word-wrap: break-word;
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgb(0, 0, 0);
+    
+}
+
+.conteudo-sobre-escrito-paragrafo1{
+    padding: 20px;
+}
+
+.conteudo-sobre-escrito-paragrafo2{
+    padding: 20px;
+}
+
+.conteudo-sobremim-foto{
+    width:450px;
+    height: auto;
+    border-radius: 250px;
+    padding-top: 35px;
+}
+
+.pe-conteudo-principal-logo-psicologia{
+    width: 100px;
+    height: auto;
+    justify-content: space-around;
+}
+
+
+
