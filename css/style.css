@@ -157,7 +157,7 @@ body {
 }
 
 .pe-conteudo-principal{
-    border-top:0.4px solid rgba(255, 242, 231, 1);
+    /*border-top:0.4px solid rgba(255, 242, 231, 1);*/
     padding-top: 48px;
     display: flex;
     flex-direction: row;
@@ -222,5 +222,45 @@ body {
     justify-content: space-around;
 }
 
+/*primeiro atendimento*/
 
+.conteudo-primeiro-atendimento{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    flex-direction: row;
+    border-top: 0.4px solid rgba(255, 242, 231, 1);
+}
 
+.conteudo-primeiro-atendimento-escrito{
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:20px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+.conteudo-primeiro-atendimento-escrito-titulo{
+    display: flex;
+    justify-content: center;
+    padding: auto;
+}
+
+.conteudo-primeiro-atendimento-escrito-subtitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.conteudo-primeiro-atendimento-foto{
+    width: 100;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:right
+     
+}
