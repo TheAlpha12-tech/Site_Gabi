@@ -34,13 +34,34 @@ body {
 
 .cabecalho-menu-item{
     font-family: "Tinos", serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-style: normal;
     font-size: 18px;
     line-height: 100%;
     letter-spacing: 0%;
     color: black;
     margin-right: 45px;
+    padding: 8px 16px; /* importante para mostrar a cor de fundo */
+    transition:background-color 0.3S;
+    display: inline-block; /* importante para animações */
+}
+
+@keyframes pulinho {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-5px); /* aumenta */
+    }
+    100% {
+        transform:translateY(0px); /* volta ao normal */
+    }
+}
+
+.cabecalho-menu-item:hover {
+    background-color: #91827e; 
+    animation: pulinho 0.3s ease;
+    border-radius: 250px;
 }
 
 .conteudo{
@@ -94,6 +115,11 @@ body {
     line-height: 100%;
     letter-spacing: 0%;
     text-align: center;
+    display: inline-block;
+}
+
+.conteudo-principal-escrito-butao:hover{
+    animation: pulinho 0.3s ease;
 }
 
 .conteudo-principal-foto{
@@ -131,7 +157,7 @@ body {
 }
 
 .pe-conteudo-principal{
-    border-top:0.4px solid rgba(255, 242, 231, 1);
+    /*border-top:0.4px solid rgba(255, 242, 231, 1);*/
     padding-top: 48px;
     display: flex;
     flex-direction: row;
@@ -142,6 +168,10 @@ body {
 .pe-conteudo-principal-foto{
     width: 100px;
     height: auto;
+}
+
+.pe-conteudo-principal-foto:hover{
+    animation: pulinho 0.3s ease;
 }
 
 /*sobre mim */
@@ -192,5 +222,41 @@ body {
     justify-content: space-around;
 }
 
+/*primeiro atendimento*/
+
+.conteudo-primeiro-atendimento{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    flex-direction: row;
+    border-top: 0.4px solid rgba(255, 242, 231, 1);
+}
+
+.conteudo-primeiro-atendimento-escrito{
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:20px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+.conteudo-primeiro-atendimento-escrito-titulo{
+    display: flex;
+    justify-content: center;
+    padding: auto;
+    padding-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+}
 
 
+.conteudo-primeiro-atendimento-foto{
+    width: 100;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:right
+     
+}
